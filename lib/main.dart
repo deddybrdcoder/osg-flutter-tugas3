@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("GridView 2"),
+          title: Text("CABANG-CABANG OLAH RAGA"),
         ),
         body: GridView(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -71,7 +71,8 @@ class HomePage extends StatelessWidget {
                     print("Ditekan");
                   },
                   child: Container(
-                    color: Colors.blue,
+                    child: Image.network(
+                        'https://1.bp.blogspot.com/-ULr5KKLspss/WrKE6QxWqYI/AAAAAAAAGKc/6TfH1h6JNOUIbaFhhn836rlHnJ_9YQkbQCLcBGAs/s1600/Tenis_Meja.png'),
                   ),
                 ),
               ),
@@ -82,7 +83,205 @@ class HomePage extends StatelessWidget {
                   onTap: () {
                     print("Ditekan");
                   },
-                  child: Container(color: Colors.pink),
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-2b9ahDhIIzE/WrKE6Xp_HwI/AAAAAAAAGKk/4v-WxLtbG0MZCwyYvp2XioKfUESDA5WHgCLcBGAs/s1600/Tinju.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://4.bp.blogspot.com/-92PRd5C8vNI/WrKEw4cQlLI/AAAAAAAAGIk/OpenErcY0H8FhwyvISfSwcWsEw1Q8vkxgCLcBGAs/s1600/Basket.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
+                ),
+              ),
+            ),
+            GridTile(
+              child: Card(
+                child: InkWell(
+                  onTap: () {
+                    print("Ditekan");
+                  },
+                  child: Container(
+                    child: Image.network(
+                        'https://2.bp.blogspot.com/-b9hibee50xg/WrKE12H0AOI/AAAAAAAAGJg/5tLwU0NM3QEeMWNvssFG439GaA-ZeHo8QCLcBGAs/s1600/Kano-Kayak.png'),
+                  ),
                 ),
               ),
             ),
